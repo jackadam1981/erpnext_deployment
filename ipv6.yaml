@@ -1,7 +1,5 @@
 networks:
-  #未设置网络时，使用默认网络
   default:
-    #自定义默认网络名
-    name: erpnext_deployment
-    #启用ipv6
+    name: frappe_docker_default
+    external: false
     enable_ipv6: true
